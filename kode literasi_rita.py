@@ -1,14 +1,14 @@
 # Data Anggaran
-df_anggaran = pd.read_excel(excel_path, sheet_name="Data Anggaran")
+df_anggaran = id.read_excel(excel_path, sheet_name="Data Anggaran")
 
 # Data Aparat
-df_aparat = pd.read_excel(excel_path, sheet_name="Data Aparat")
+df_aparat = id.read_excel(excel_path, sheet_name="Data Aparat")
 
 # Sensor Perangkat
-df_sensor = pd.read_excel(excel_path, sheet_name="Sensor Perangkat")
+df_sensor = id.read_excel(excel_path, sheet_name="Sensor Perangkat")
 
 # Data Eksternal
-df_eksternal = pd.read_excel(excel_path, sheet_name="Data Eksternal")
+df_eksternal = id.read_excel(excel_path, sheet_name="Data Eksternal")
 
 # Contoh tampilkan jumlah baris per sheet
 print("Jumlah data anggaran:", len(df_anggaran))
